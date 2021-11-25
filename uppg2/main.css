@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+</style>
+
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;  
+}
+  .main {
+      width: 100%;
+  }
+  nav {
+      width: 95%;
+      height: 80px;
+      line-height: 80px;
+      background-color:rgba(8, 8, 8, 0.856);
+      padding: 0px 100px;
+      display:flex;
+      justify-content: space-between;
+      
+  }
+  .logo a{
+      font-size: 40px;
+      font-family:Roboto ;
+      color: rgb(183, 201, 49);
+      font-weight: bold;
+      margin-right: 100px;
+  }
+a {
+    text-decoration: none;
+    color:rgb(229, 230, 221);
+    font-size: 25px;
+    transition: 0.5s all ease ;
+}
+ul{
+    margin: 0px;
+
+}
+ul li{
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+ul li a:hover {
+    color: rgb(100, 32, 11);
+}
+.header {
+    background-image: url(fff.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh ;
+}
+.content{
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate();
+    color: rgb(255, 255, 255);
+    text-align: center;
+
+}
+.content h1{
+    font-size: 40px;
+}
+.content p{
+    padding:0px 50px ;
+    font-size: 20px;
+}
+
+button{
+    background: none;
+    border: 5px solid floralwhite;
+    color: floralwhite;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: 0.5s all ease;
+
+}
+button:hover {
+    background:black;
+    color: floralwhite;
+
+}
+.overlay {
+    background:rgba(0, 0, 0, 0.315);
+    height: 93vh;
+}
+.lunch {
+    color: rgb(11, 109, 41);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0px 50px;
+    left: 20%;
+    text-align: center;
+
+}
+iframe {
+    margin: auto;
+    display: block ;
+    left: 40%;
+}
+
+@media screen and (max-width: 600px) {
+    body{
+        float: none;
+        width: 100%;
+    }
+}
